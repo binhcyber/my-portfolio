@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    scroll-behavior: smooth
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }
+body{
+    background-image: url(../src/assets/bg-texture.png)
+}
+body > iframe{
+    pointer-events: none;
+}
+@layer base{
+    h1, h2, h3, h4, h5 {
+    @apply font-medium
+    }
+    h4{
+        @apply text-TextWhite font-medium
+    }
+    
+    h1{
+        @apply text-4xl
+    }
+    section{
+        @apply lg:mt-32 md:mt-20 mt-20 lg:h-full h-full md:h-full
+    }
+    section > h1, section > h5, section > h2{
+        @apply text-center text-light
+    }
+    section > h2 {
+        @apply text-primary mb-12
+    }
+    a{
+        @apply text-primary transition-all duration-500 ease-linear
+    }
+    a:hover{
+        @apply text-TextWhite
+    }
+   nav a{
+       @apply bg-transparent p-4 rounded-full flex text-light text-lg
+   }
+   nav a:hover{
+       @apply bg-nav
+   }
+   nav a.active{
+       @apply bg-light
+   }
+   input{
+       @apply rounded-2xl p-4 border-solid border-2 border-primary text-light bg-bgBodyVar min-w-full 
+   }
+   input:focus{
+       @apply outline-none
+   }
+   textarea{
+       @apply rounded-2xl p-4 border-solid border-2 border-primary text-light min-w-full bg-bgBodyVar
+   }
+   textarea:focus{
+       @apply outline-none
+   }
+   footer h1{
+       @apply text-bgBody
+   }
+   footer ul li a{
+       @apply text-bgBody
+   }
+  footer div a {
+       @apply bg-bgBody p-3 rounded-3xl
+   }
+}
+@layer components{
+    .app{
+        @apply lg:w-container lg:my-0 lg:mx-auto md:w-container-md w-container-sm 
+    }
+    .nav-active{
+        @apply rounded-full bg-light w-10 h-10
+    }
+    .btn{
+        @apply max-w-min inline-block text-primary py-3 px-5 rounded-md cursor-pointer border-solid border-2 border-primary transition-all duration-500 ease-linear
+    }
+    .btn:hover{
+        @apply bg-TextWhite text-bgBody border-transparent
+    }
+    .btn-primary{
+        @apply bg-primary text-bgBody min-w-max
+    } 
+    .img{
+        @apply block w-full object-cover
+    }
+        .about_card {
+            @apply rounded-3xl bg-bgBodyVar w-40 h-36 flex flex-col items-center pt-6 transition-colors duration-500 ease-linear space-y-4
+        }
+        .about_card:hover{
+            @apply bg-bgBody border-solid border-2 border-bgBodyVar cursor-pointer backdrop-blur-md 
+        }
+        .about_avatar{
+            @apply lg:w-72 md:w-102 w-72 bg-gradient-to-t from-transparent to-primary rounded-3xl grid place-items-center lg:ml-0 md:ml-16 ml-12 
+        }
+        .about_image{
+            @apply rounded-3xl transform rotate-12 overflow-hidden transition-all duration-500 ease-linear
+        } 
+        .about_image:hover{
+            @apply transform rotate-0 
+        } 
+        .experience_card{
+            @apply bg-bgBody transition-all duration-500 ease-in-out rounded-3xl p-6 border-solid border-2 border-primary
+        }
+        .experience_card:hover{
+            @apply  bg-primary text-bgBody
+        }
+        .experience_skill{
+            @apply flex flex-row items-center gap-3 justify-center
+        }
+        .experience_title{
+            @apply text-center
+        }
+        .experience_text{
+            @apply text-sm ml-24
+        }
+        .project_card{
+            @apply rounded-3xl bg-bgBodyVar w-64 h-80 pt-4 pl-4 transition-all duration-500 ease-in-out
+        }
+        .project_card:hover{
+            @apply transform scale-90
+        }
+        .project_card img{
+            @apply rounded-3xl w-56 h-40 object-cover object-center
+        }
+        .project_desc {
+            @apply py-4
+        }
+        .contact_card {
+            @apply rounded-3xl bg-bgBodyVar lg:min-w-full md:w-96 w-80 h-44 flex flex-col items-center p-4 transition-colors duration-500 ease-linear
+        }
+        .contact_card h5{
+            @apply text-light text-sm
+        }
+        .contact_card:hover{
+            @apply bg-bgBody border-solid border-2 border-bgBodyVar cursor-pointer backdrop-blur-md 
+        }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
