@@ -14,26 +14,26 @@ export default function Experience() {
                 <BsFillPatchCheckFill />
                 <h4>HTML</h4>
               </div>
-              <h5 className="experience_text">Basic</h5>
+              <h5 className="experience_text">Intermediate</h5>
             </div>
             <div>
               <div className="experience_skill">
                 <BsFillPatchCheckFill />
-                <h4>HTML</h4>
+                <h4>CSS</h4>
               </div>
-              <h5 className="experience_text">Basic</h5>
+              <h5 className="experience_text">Intermediate</h5>
             </div>
             <div>
               <div className="experience_skill">
                 <BsFillPatchCheckFill />
-                <h4>HTML</h4>
+                <h4>Javascript</h4>
               </div>
-              <h5 className="experience_text">Basic</h5>
+              <h5 className="experience_text">Intermediate</h5>
             </div>
             <div>
               <div className="experience_skill">
                 <BsFillPatchCheckFill />
-                <h4>HTML</h4>
+                <h4>ReactJS</h4>
               </div>
               <h5 className="experience_text">Basic</h5>
             </div>
@@ -45,28 +45,28 @@ export default function Experience() {
             <div>
               <div className="experience_skill">
                 <BsFillPatchCheckFill />
-                <h4>HTML</h4>
+                <h4>Ant Design</h4>
               </div>
               <h5 className="experience_text">Basic</h5>
             </div>
             <div>
               <div className="experience_skill">
                 <BsFillPatchCheckFill />
-                <h4>HTML</h4>
+                <h4>Material UI</h4>
               </div>
               <h5 className="experience_text">Basic</h5>
             </div>
             <div>
               <div className="experience_skill">
                 <BsFillPatchCheckFill />
-                <h4>HTML</h4>
+                <h4>Tailwindcss</h4>
               </div>
               <h5 className="experience_text">Basic</h5>
             </div>
             <div>
               <div className="experience_skill">
                 <BsFillPatchCheckFill />
-                <h4>HTML</h4>
+                <h4>Bootstrap</h4>
               </div>
               <h5 className="experience_text">Basic</h5>
             </div>
