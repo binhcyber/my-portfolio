@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7895dea2.chunk.css",
+    "main.js": "/static/js/main.0722c1ef.chunk.js",
+    "main.js.map": "/static/js/main.0722c1ef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.26096b02.js",
+    "runtime-main.js.map": "/static/js/runtime-main.26096b02.js.map",
+    "static/js/2.404bd4eb.chunk.js": "/static/js/2.404bd4eb.chunk.js",
+    "static/js/2.404bd4eb.chunk.js.map": "/static/js/2.404bd4eb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7895dea2.chunk.css.map": "/static/css/main.7895dea2.chunk.css.map",
+    "static/js/2.404bd4eb.chunk.js.LICENSE.txt": "/static/js/2.404bd4eb.chunk.js.LICENSE.txt",
+    "static/media/Avatar1.5c2cfca3.jpg": "/static/media/Avatar1.5c2cfca3.jpg",
+    "static/media/Avatar4.19aaa19e.jpg": "/static/media/Avatar4.19aaa19e.jpg",
+    "static/media/CV.2362ce9a.pdf": "/static/media/CV.2362ce9a.pdf",
+    "static/media/airbnb.2ea41f71.gif": "/static/media/airbnb.2ea41f71.gif",
+    "static/media/movie.f247492c.gif": "/static/media/movie.f247492c.gif",
+    "static/media/weather.3db35b76.gif": "/static/media/weather.3db35b76.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26096b02.js",
+    "static/js/2.404bd4eb.chunk.js",
+    "static/css/main.7895dea2.chunk.css",
+    "static/js/main.0722c1ef.chunk.js"
+  ]
+}
