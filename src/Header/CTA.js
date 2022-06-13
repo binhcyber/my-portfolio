@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../assets/CV.pdf";
+import CV from "../assets/CV English (1).pdf";
 export default function CTA() {
   return (
     <div className="flex gap-2 justify-center items-center">
